@@ -1,0 +1,27 @@
+.album_cover {
+    width: 100%;
+    border: 10px solid #63686d;
+    margin: 10px;
+}
+
+.photo_list {
+    width: 100%;
+    padding: 10px;
+}
+
+.single_photo {
+    width: 75%;
+}
+
+.col-md-1, .col-md-2, .col-md-4{
+	border:1px solid red;
+}
+
+.basic_img{
+	width:100%;
+}
+
+#albums_link {
+    background: grey;
+    color: grey;
+}
