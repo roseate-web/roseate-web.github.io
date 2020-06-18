@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title></title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default">
+
+      <!-- started collapsed navbar-->
+      <div class="navbar-header">
+        <button
+        type="button"
+        class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#main_navbar"
+        aria-expanded="false">Navigation</button>
+      </div>
+      <!-- / collapsed navbar-->
+
+      <!-- Start un-collapsed navbar-->
+      <div 
+        class="collapse navbar-collapse"
+        id="main_navbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Albums.html">Albums</a></li>
+          <li class="active"><a href="Halsey_album.html">Album: Halsey</a></li>
+        </ul>
+      </div>
+      <!-- / un-collapsed navbar-->
+      
+    </nav>
+
+    <div class="container">
+      <h1>Album: Halsey</h1>
+
+      <!-- start breadcrumb-->
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Albums.html">Albums</a></li>
+        <li><a href="Halsey_album.html">Album: Halsey/a></li>
+      </ol>
+      <!-- / breadcrumb -->
+      <div class="row">
+        <div class="col-xs-6 col-md-3 col-lg-3">
+          <a href="./images/1.jpg" target="away"><img class="photo_list" src="./images/1.jpg" alt="Halsey Singing Blue Stage"></a>
+        </div>
+        
+        <div class="col-xs-6 col-md-3 col-lg-3">
+          <a href="./images/2.jpg" target="away"><img class="photo_list" src="./images/2.jpg" alt="Halsey Badlands Cover Photo"></a>
+        </div>
+        
+        <div class="col-xs-6 col-md-3 col-lg-3">
+          <a href="./images/4.jpg" target="away"><img class="photo_list" src="./images/4.jpg" alt="Halsey Sitting Green Hair"></a>
+        </div>
+
+      </div> <!-- /row -->
+
+    </div> <!-- /container -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
