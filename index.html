@@ -1,10 +1,17 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
   <head>
-   <title></title>
+   <title>Gallery</title>
 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/handlebars-v3.0.3.js"></script>
+    <script src="js/Albums.js"> </script>
+    <script src="js/gallery.js"> </script>
     <link href="css/bootstrap.css" rel="stylesheet">
-
+    <link href="css/styles.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,6 +42,7 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="Albums.html">Albums</a></li>
+          <li><a href="All_Photos.html">All Photos</a></li>
         </ul>
       </div>
       <!-- / un-collapsed navbar-->
@@ -48,16 +56,13 @@
         <li><a href="index.html">Home</a></li>
       </ol>
 
-      <ol class="breadcrumb">
-        <li><a href="Albums.html">Albums</a></li>
-      </ol>
-
+      <div class="row">
+        <div class="col-xs-6 col-md-6"> 
+          <div class="Albums_link"><a href="Albums.html"><img src="images/Home_Albums_Cover_1.png" class="links" alt="See Albums"></a></div>  
+        </div>
+      </div>
     </div>
 
-    
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
   </body>
+
 </html>
